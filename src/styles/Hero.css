@@ -1,0 +1,16 @@
+.hero {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding-left: 10%;
+    background-color: #151a31;
+    scroll-behavior: smooth;
+}
+
+.hero h1 {
+    font-size: 4.5em;
+    margin: 0.04em;
+
+}
