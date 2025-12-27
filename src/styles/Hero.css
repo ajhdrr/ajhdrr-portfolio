@@ -34,14 +34,16 @@
 
 .cred-buttons {
     color: black;
-    margin-top: px;
+    margin-left: 1%;
     display: flex;
     gap: 12px;
 
+
 }
 .cred-buttons a {
-    padding: 10px 16px;
+    padding: 10px;
     display: flex;
+    align-items: center;
     border-radius: 8px;
     text-decoration: none;
     color: #ffffff;
@@ -49,10 +51,30 @@
 .cred-button {
     color: #47440d;
     display: flex;
-    gap: 12px;
+    gap: 6px;
     background-color: #f3e036;
 }
 
 .cred-button:hover {
     background-color: #fdf8c9;
+}
+
+.cred-icon {
+    display: flex;
+    align-items: center;
+}
+
+.cred-icon:hover .icon {
+    color: #000000;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    color: #ffffff;
 }
