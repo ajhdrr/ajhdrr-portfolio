@@ -1,16 +1,58 @@
 .hero {
-    min-height: 80vh;
+    min-height: 100vh;
+    padding: 0%;
+    
     display: flex;
     flex-direction: column;
+
     justify-content: center;
-    align-items: left;
+    text-align: left;
+
     padding-left: 10%;
-    background-color: #151a31;
-    scroll-behavior: smooth;
+
 }
 
 .hero h1 {
-    font-size: 4.5em;
-    margin: 0.04em;
+    font-size: 9vw;
+    margin-top: 0;
+    margin-bottom: -0.2lh;
+    font-family: Impact;
+}
 
+.subtitle {
+    color: #c5c5c5;
+    text-indent: 6%;
+    margin-bottom: -0.7lh;
+    font-size: 1.5vw;
+}
+
+.school {
+    color: #919191;
+    text-indent: 6%;
+    font-size: 1.5vw;
+}
+
+.cred-buttons {
+    color: black;
+    margin-top: px;
+    display: flex;
+    gap: 12px;
+
+}
+.cred-buttons a {
+    padding: 10px 16px;
+    display: flex;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.cred-button {
+    color: #47440d;
+    display: flex;
+    gap: 12px;
+    background-color: #f3e036;
+}
+
+.cred-button:hover {
+    background-color: #fdf8c9;
 }
