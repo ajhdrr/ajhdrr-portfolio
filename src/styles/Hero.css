@@ -1,6 +1,5 @@
 .hero {
-    height:50vw;
-    aspect-ratio: 16 / 9;
+    height:56vw;
 
     display: flex;
     flex-direction: column;
@@ -10,20 +9,21 @@
 
     padding-left: 10%;
 
+    background-color: #f4f3ee;
+
 }
 
 .hero h1 {
-    color: #f8f9fa;
+    color: #463f3a;
     font-size: 9vw;
     width: 6em;
     margin-top: 0;
     margin-bottom: -0.2lh;
     font-family: Impact;
-    text-shadow: #111214;
 }
 
 .subtitle {
-    color: #e9ecef;
+    color: #8a817c;
     width: 36em;
     text-indent: 14%;
     margin-bottom: -0.7lh;
@@ -31,7 +31,7 @@
 }
 
 .school {
-    color: #ced4da;
+    color: #bcb8b1;
     width: 36em;
     text-indent: 14%;
     font-size: 1.5vw;
@@ -50,8 +50,9 @@
     align-items: center;
     border-radius: 2vw;
     text-decoration: none;
-    color: #ffffff;
+    color: #e0afa0;
 }
+
 .cred-button {
     position: relative;
     color: #343a40;
@@ -60,7 +61,7 @@
     padding-top: -0.1em;
     justify-content: center;
     gap: 0.5vw;
-    background-color: #adb5bd;
+    background-color: #e0afa0;
     font-size: 1vw;
     text-justify: center;
 }
@@ -72,8 +73,8 @@
 }
 
 .cred-button:hover {
-    background-color: #f8f9fa;
-    box-shadow: #111214 10px 10px 0px 1px;
+    background-color: #f7cbbd;
+
 
 }
 
@@ -83,7 +84,7 @@
 }
 
 .cred-icon:hover .icon {
-    color: #6c757d;
+    color: #f7cbbd;
     
 }
 
@@ -95,7 +96,7 @@
     stroke-width: 2.7;
     stroke-linecap: round;
     stroke-linejoin: round;
-    color: #343a40;
+    color: #f7cbbd;
 }
 
 .icon {
@@ -106,5 +107,5 @@
     stroke-width: 1;
     stroke-linecap: round;
     stroke-linejoin: round;
-    color: #e9ecef;
+    color: #e0afa0;
 }

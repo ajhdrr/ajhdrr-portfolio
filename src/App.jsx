@@ -1,11 +1,13 @@
 import Hero from "./components/CS/Hero.jsx";
 import Education from "./components/CS/Education.jsx";
+import Experience from "./components/CS/Experience.jsx"; 
+
 
 function App() {
   return (
     <>  
       <Hero />
-      <Education />
+      <Experience />
       <p align="center" style={{ fontSize: "2vw" }}> BREAK</p>
       <Education />
       <p align="center" style={{ fontSize: "2vw" }}> BREAK</p>

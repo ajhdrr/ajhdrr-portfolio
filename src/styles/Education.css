@@ -1,19 +1,7 @@
 .education {
     display: flex;
     flex-direction: column;
-    align-items: left;
     padding: 2vw;
     margin: 0vw 20vw;
     font-size: 1vw;
-}
-
-.education h2 {
-    font-size: 2vw;
-    text-align: left;
-}  
-
-.education ul {
-    margin-left: 4vw;
-    padding: 0;
-    list-style: disc;
 }

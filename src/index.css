@@ -19,6 +19,17 @@ body {
 
 }
 
+ul {
+    margin-left: 4vw;
+    padding: 0;
+    list-style: disc;
+}
+
+h2 {
+    font-size: 4vw;
+    text-align: left;
+}  
+
 button {
   border-radius: 100em;
   border: 0px solid transparent;
