@@ -8,9 +8,10 @@
 }
 
 .exp-cards {
-    margin: 1vw 20vw;
+    margin: 1vw 23vw;
+    padding: 1vw;
     list-style: disc;
-    border: 5px solid #bcb8b1;
+    border: 2px solid #bcb8b1;
     border-radius: 2em;
     padding-top: 1vw;
     display: flex;
@@ -18,9 +19,9 @@
 }
 
 .exp-logo {
-    margin: 1.1vw 0vw 1vw 2vw;
     width: 3vw;
     height: 3vw;
+    margin-top: 0.9vw;
     border-radius: 50%;
     overflow: hidden;
     flex-shrink: 0;

@@ -2,6 +2,12 @@
     display: flex;
     flex-direction: column;
     padding: 2vw;
-    margin: 0vw 20vw;
     font-size: 1vw;
+    background-color: #463f3a;
+}
+
+.education ul {
+    margin: 0vw 23vw;
+    padding: 1vw;
+    list-style: disc;
 }

@@ -2,49 +2,37 @@ import "../../styles/Experience.css";
 
 
 function Experience() {
-    const expList = [ 
-        {
-            id: 1,
-            title: "Software Developer Co-op",
-            company: "TD Bank",
-
-            duration: "May 2023 - Aug 2023",
-            points: [
-                "Developed and maintained internal web applications using React and Node.js, improving user experience and functionality.",
-                "Collaborated with cross-functional teams to gather requirements and implement new features, resulting in a 15% increase in application efficiency.",
-                "Participated in code reviews and contributed to team knowledge sharing sessions to enhance code quality and team skills."
-            ]
-        },
-        {
-            id: 2,
-            title: "Web Development Intern",
-            company: "Tech Solutions Inc.",
-            
-            duration: "Jan 2023 - Apr 2023",
-            points: [
-                "Assisted in the development of client websites using HTML, CSS, and JavaScript, ensuring responsive design and cross-browser compatibility.",
-                "Worked closely with designers to implement UI/UX improvements, leading to a 10% increase in user engagement.",
-                "Conducted website testing and debugging to identify and resolve issues promptly."
-            ]
-        },
-        {
-            id: 3,
-            title: "IT Support Assistant",
-            company: "University IT Services",
-            
-            duration: "Sep 2022 - Dec 2022",
-            points: [
-                "Provided technical support to students and faculty, resolving hardware and software issues efficiently.",
-                "Managed inventory of IT equipment and assisted in the setup of computer labs for new academic terms.",
-                "Created user guides and documentation to help users troubleshoot common technical problems."
-            ]
-        }
-    ];
+const expList = [
+    {
+        id: 1,
+        title: "Client IT Intern",
+        company: "Ontario Institute of Cancer Research (OICR), Toronto, ON",
+        duration: "Sep 2024 – Dec 2024",
+        points: [
+        "Applied relational database concepts by structuring and querying inventory data, performing lookups and joins on primary keys to create detailed asset reports supporting data-driven decisions.",
+        "Wrote SQL queries to extract user support metrics used in monthly team performance presentations.",
+        "Documented and categorized over 150 IT support tickets and contributed to a new internal knowledge base, improving issue resolution times.",
+        "Maintained and cleaned internal inventory databases by merging duplicates and validating entries, improving data accuracy by over 90%.",
+        "Collaborated with cross-department teams to support organizational events by setting up and testing AV equipment, ensuring smooth execution."
+        ]
+    },
+    {
+        id: 2,
+        title: "IT Intern",
+        company: "DPS STS School, Dhaka, Bangladesh",
+        duration: "Oct 2022 – Dec 2022",
+        points: [
+        "Upgraded and configured over 30 lab computers via BIOS, improving system performance by nearly 20 times.",
+        "Provided classroom IT support, reducing downtime by over 5 hours per week through prompt troubleshooting.",
+        "Assisted in managing network and IT infrastructure including CCTV, RFID attendance systems, and control booth equipment."
+        ]
+    }
+];
 
 
     return (
         <div className="experience">
-            <h2 style={{ margin: "1vw 20vw", fontSize: "4vw"}}>Experience</h2>     
+            <h2 style={{ margin: "1vw 23vw", fontSize: "2.5vw"}}>Experience</h2>     
             {expList.map((exp) => (
                 <ExpCard key={exp.id} expList={exp} />
             ))}
