@@ -8,14 +8,21 @@
 }
 
 .exp-cards {
-    margin: 1vw 23vw;
     padding: 1vw;
     list-style: disc;
-    border: 2px solid #bcb8b1;
-    border-radius: 2em;
+
     padding-top: 1vw;
     display: flex;
     flex-direction: row;
+}
+
+.exp-container {
+    margin: 0vw 23vw;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #bcb8b1;
+    border-radius: 2em;
+
 }
 
 .exp-logo {
