@@ -1,4 +1,5 @@
 .hero {
+    padding: 0 10vw;
     height: 100vh;
     display: flex;
     flex-direction: row;
@@ -11,7 +12,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 10%;  
 
 }
 
@@ -124,3 +124,24 @@
     justify-content: center;
 }
 
+@media (max-width: 768px) {
+.hero {
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+    padding: 10vw 0;
+  }
+
+  .hero-main {
+    align-items: center;
+  }
+
+  .cred-buttons {
+    justify-content: center;
+  }
+
+  .img-container {
+    order: -1; /* moves image above text */
+    margin-bottom: 4vh;
+  }
+}
