@@ -2,7 +2,7 @@ import "../../styles/Education.css";
 
 function Education() {
     return (
-        <div className="education">
+        <div className="education" id="education">
             <h2 style={{ margin: "0vw 23vw", fontSize: "2.5vw"}}>Education</h2>   
             <ul>
                 <li>

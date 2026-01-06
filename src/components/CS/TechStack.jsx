@@ -18,7 +18,7 @@ function TechStack() {
     ];
 
     return (
-        <div className="tech-stack">
+        <div className="tech-stack" id="tech">
             <h2 style={{ margin: "0 23vw", fontSize: "2.5vw"}}>Tech Stack</h2>
             <div className="tech-container">
                 {techList.map((tech, index) => (

@@ -31,7 +31,7 @@ const expList = [
 
 
     return (
-        <div className="experience">
+        <div className="experience" id="experience">
             <h2 style={{ margin: "1vw 23vw", fontSize: "2.5vw"}}>Experience</h2>    
             <div className="exp-container">
                 {expList.map((exp) => (

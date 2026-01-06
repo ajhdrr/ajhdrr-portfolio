@@ -43,6 +43,10 @@ button {
   transition: border-color 0.25s;
 }
 
+.projects, .experience, .education, .tech-stack {
+  scroll-margin-top: 10vh;
+}
+
 /*
 a {
   font-weight: 500;

@@ -15,7 +15,7 @@
 
 }
 
-.hero h1 {
+.hero-main h1 {
     color: #463f3a;
     font-size: 9vw;
     width: 6em;
@@ -39,11 +39,13 @@
     font-size: 1.5vw;
 }
 
+
+
 .cred-buttons {
     color: black;
     margin-left: 1vw;
     display: flex;
-    gap: 0.1vw;
+    gap: 0.2vw;
     width: fit-content;
 }
 .cred-buttons a {
@@ -68,28 +70,6 @@
     text-justify: center;
 }
 
-.resumetxt {
-    position: relative;
-    top: -0.1em;
-    font-weight: bold;
-}
-
-.cred-button:hover {
-    background-color: #f7cbbd;
-
-
-}
-
-.cred-icon {
-    display: flex;
-    align-items: center;
-}
-
-.cred-icon:hover .icon {
-    color: #f7cbbd;
-    
-}
-
 .down-icon {
     width: 1vw;
     height: 1vw;
@@ -98,8 +78,22 @@
     stroke-width: 2.7;
     stroke-linecap: round;
     stroke-linejoin: round;
-    color: #f7cbbd;
+    color: #f4f3ee;
 }
+
+
+.resumetxt {
+    position: relative;
+    top: -0.09em;
+    font-weight: bold;
+    color:#f4f3ee;
+}
+
+.cred-button:hover {
+    background-color: #f7cbbd;
+}
+
+
 
 .icon {
     width: 2vw;
@@ -112,9 +106,15 @@
     color: #e0afa0;
 }
 
+.icon:hover {
+    color: #f7cbbd;
+    
+}
+
 .img-container {
-    width: 30vw;
-    height: 40vw;
+    width: 22.5vw;
+    height: 30vw;
+    margin: 5vw;
     border-radius: 2em;
     overflow: hidden;
     flex-shrink: 0;
@@ -124,24 +124,61 @@
     justify-content: center;
 }
 
-@media (max-width: 768px) {
-.hero {
-    height: auto;
-    flex-direction: column;
-    text-align: center;
-    padding: 10vw 0;
-  }
+@media (max-width: 900px) {
+    .hero {
+        height: 90vh;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 10vw 0;
+    }
 
-  .hero-main {
-    align-items: center;
-  }
+    .hero-main h1 {
+        font-size: 15vw;
+    }
 
-  .cred-buttons {
-    justify-content: center;
-  }
+    .hero-main {
+        align-items: center;
+        
+    }
 
-  .img-container {
-    order: -1; /* moves image above text */
-    margin-bottom: 4vh;
-  }
+    .subtitle, .school {
+        width: 100%;
+        text-indent: 0;
+        font-size: 2.5vw;
+    }
+
+    .resumetxt {
+        top: -0.02em;
+    }
+
+    .cred-buttons {
+        justify-content: center;
+
+        gap: 4vw;
+    }
+    .down-icon{
+        width: 3vw;
+        height: 3vw;
+    }
+    .cred-button {
+        font-size: 3vw;
+        gap: 1vw;
+    }
+
+    .icon {
+        width: 5vw;
+        height: 5vw;
+    }
+    
+
+    .img-container {
+        order: -1; 
+        width: 45vw;
+        height: 60vw;
+        margin-bottom: 4vh;
+        border-radius: 1em;
+    }
+
+   
 }

@@ -28,8 +28,8 @@ function Projects() {
 
 
     return (
-        <div className="projects">
-            <h2 style={{ margin: "0vw 23vw", fontSize: "2.5vw"}}>Projects</h2>     
+        <div className="projects" id="projects">
+            <h2>Projects</h2>     
             <div className="proj-container" >   
                 {projList.map((proj) => (
                     <ProjCard key={proj.id} projList={proj} />
@@ -54,7 +54,7 @@ function ProjCard({projList}) {
                     <p key={index}>{tech}</p>
                 ))}
                 </section>
-                <p style={{marginBottom:"0", fontSize:"0.8vw"}}>{projList.desc}</p>
+                <p >{projList.desc}</p>
             </div>
         </div>
     );
