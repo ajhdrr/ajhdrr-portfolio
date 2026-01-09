@@ -3,8 +3,9 @@
     flex-direction: column;
     padding: 2vw;
     font-size: 1vw;
-    color: #f4f3ee;
-    background-color: #bcb8b1;
+    color: #f8f9fa;
+    
+    /* background-color: #bcb8b1; */
 }
 .projects h2 {
     margin: 0vw 23vw;
@@ -16,7 +17,7 @@
     margin: 1vw;
     padding: 1vw;
     list-style: disc;
-    border: 2px solid #f4f3ee;
+    border: 2px solid #f8f9fa;
     border-radius: 2em;
     padding-top: 1vw;
     display: flex;
@@ -42,7 +43,7 @@
 .proj-tech p {
     margin: 0;
     padding: 0.4vw 0.5vw;
-    border: 1px solid #f4f3ee;
+    border: 1px solid #f8f9fa;
     border-radius: 1em;
     font-size: 0.6vw;
     
@@ -54,7 +55,7 @@
     border-radius: 2em;
     overflow: hidden;
     flex-shrink: 0;
-    background: #ffffff;
+    background: #f8f9fa;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -102,10 +103,6 @@
     .proj-cards {
         width: 60%;
         padding: 2vw;
-        border: 2px solid #f4f3ee;
-        border-radius: 2em;
-
-        display: flex;
         flex-direction: column;
     }
     .proj-cards p{
@@ -121,7 +118,6 @@
     }
     .proj-tech p {
         padding: 1vw 1.5vw;
-        border: 1px solid #f4f3ee;
         border-radius: 1em;
         font-size: 2.4vw;
     }

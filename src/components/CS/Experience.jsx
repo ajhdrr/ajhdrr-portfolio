@@ -32,7 +32,7 @@ const expList = [
 
     return (
         <div className="experience" id="experience">
-            <h2 style={{ margin: "1vw 23vw", fontSize: "2.5vw"}}>Experience</h2>    
+            <h2>Experience</h2>    
             <div className="exp-container">
                 {expList.map((exp) => (
                     <ExpCard key={exp.id} expList={exp} />

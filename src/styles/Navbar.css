@@ -2,7 +2,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  height: 2.5vw;
+  height: 3.4vw;
 
 
   display: flex;
@@ -12,7 +12,9 @@
   padding: 0 4vw;
   box-sizing: border-box;
 
-  background: #e0afa0a4;
+  border-bottom: 1px solid #ffffffb7;
+
+  background: #21252952;
   backdrop-filter: blur(12px);
 
 }
@@ -25,28 +27,60 @@
 .nav-links {
   padding: 1vw;
   display: flex;
-
   list-style: none;
-
   gap: 2.5vw;
+
+  align-items: center;
 }
 
 .nav-links a{
   color: white;
   text-decoration: none;
   font-size: 1vw;
-  align-items: right;
+}
+
+.ResumeButton {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-top: -0.1em;
+    justify-content: center;
+    gap: 0.5vw;
+    background-color: #e9ecef;
+    font-size: 1vw;
+    text-justify: center;
+}
+
+.ResumeLogo {
+    width: 1vw;
+    height: 1vw;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2.7;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    color: #495057;
 }
 
 .nav-links a:hover {
-  color: #f3e036;
+  color: #adb5bd;
 }
+
+
 
 @media (max-width: 900px) {
 
   .navbar {
     height: 2rem;
+  }
 
+  .ResumeLogo{
+      width: 2vw;
+      height: 2vw;
+  }
+
+  .ResumeButton {
+    font-size: 1vw;
   }
 
   .logo {
@@ -54,6 +88,6 @@
   }
 
   .nav-links a {
-    font-size: 0.5rem;
+    font-size: 0.7rem;
   }
 }

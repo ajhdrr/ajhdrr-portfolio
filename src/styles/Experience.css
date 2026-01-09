@@ -3,8 +3,14 @@
     flex-direction: column;
     padding: 2vw;
     font-size: 1vw;
-    color: #bcb8b1;
-    background-color: #8a817c;
+    color: #f8f9fa;
+    /* background-color: #8a817c; */
+}
+
+.experience h2 {
+    margin: 0vw 23vw;
+    font-size: 2.5vw;
+    text-indent: 1vw;
 }
 
 .exp-cards {
@@ -20,7 +26,7 @@
     margin: 0vw 23vw;
     display: flex;
     flex-direction: column;
-    border: 2px solid #bcb8b1;
+    border: 2px solid #f8f9fa;
     border-radius: 2em;
 
 }
@@ -32,7 +38,7 @@
     border-radius: 50%;
     overflow: hidden;
     flex-shrink: 0;
-    background: #ffffff;
+    background: #f8f9fa;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,4 +61,58 @@
 .exp-details h6 {
   margin: 0;
   margin-top: 0.4vw;
+  width: fit-content;
+}
+
+@media (max-width: 900px) {
+    .experience {
+        padding: 4vw;
+        align-items: center;
+    
+    }
+    .exp-cards{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .exp-details{
+        align-items: center;
+    }
+
+    .experience h2 {
+        width: fit-content;
+        font-size: 8vw;
+    }
+    .exp-container {
+        width: 54%;
+        padding: 1vw 2vw;
+        flex-direction: column;
+    }
+
+    .exp-logo {
+        width: 7vw;
+        height: 7vw;
+        margin: 1vw 1vw;
+       
+    }   
+
+    .exp-details h3,
+    .exp-details h6 {
+    margin: 0;
+    margin-top: 0.4vw;
+    width: fit-content;
+    font-size: 1.7vw;
+    }
+
+    .exp-details li {
+        font-size: 2vw;
+        text-align: center;
+        list-style: none;
+        margin-top: 2vw;
+    }
+    .exp-details ul {
+        margin-top: 1vw;
+        margin-left: 0;
+        
+    }
 }

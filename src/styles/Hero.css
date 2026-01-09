@@ -3,9 +3,9 @@
     height: 100vh;
     display: flex;
     flex-direction: row;
-    background-color: #f4f3ee;
+    /* background-color: #f4f3ee; */
     align-items: center;
-
+    
 }
 
 .hero-main {
@@ -16,7 +16,7 @@
 }
 
 .hero-main h1 {
-    color: #463f3a;
+    color: #f8f9fa;
     font-size: 9vw;
     width: 6em;
     margin-top: 0;
@@ -25,7 +25,7 @@
 }
 
 .subtitle {
-    color: #8a817c;
+    color: #dee2e6;
     width: 36em;
     text-indent: 14%;
     margin-bottom: -0.7lh;
@@ -33,7 +33,7 @@
 }
 
 .school {
-    color: #bcb8b1;
+    color: #adb5bd;
     width: 36em;
     text-indent: 14%;
     font-size: 1.5vw;
@@ -54,18 +54,16 @@
     align-items: center;
     border-radius: 2vw;
     text-decoration: none;
-    color: #e0afa0;
 }
 
 .cred-button {
     position: relative;
-    color: #343a40;
     display: flex;
     align-items: center;
     padding-top: -0.1em;
     justify-content: center;
     gap: 0.5vw;
-    background-color: #e0afa0;
+    background-color: #e9ecef;
     font-size: 1vw;
     text-justify: center;
 }
@@ -78,7 +76,7 @@
     stroke-width: 2.7;
     stroke-linecap: round;
     stroke-linejoin: round;
-    color: #f4f3ee;
+    color: #495057;
 }
 
 
@@ -86,11 +84,14 @@
     position: relative;
     top: -0.09em;
     font-weight: bold;
-    color:#f4f3ee;
+    color:#495057;
 }
 
 .cred-button:hover {
-    background-color: #f7cbbd;
+    background-color: #adb5bd;
+    transform: scale(1.1);
+    transform: rotate(-5deg);
+/*     box-shadow: 0px 0px 1px 10px #212529; */
 }
 
 
@@ -103,11 +104,12 @@
     stroke-width: 1;
     stroke-linecap: round;
     stroke-linejoin: round;
-    color: #e0afa0;
+    color: #e9ecef;
 }
 
 .icon:hover {
-    color: #f7cbbd;
+    color: #adb5bd;
+    transform: rotate(-10deg);
     
 }
 

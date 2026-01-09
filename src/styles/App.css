@@ -1,0 +1,27 @@
+.app {
+  position: relative;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Background layer */
+.app::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: url("../assets/Stone.webp");
+  background-size: 15vw;
+  background-position: center;
+  filter: blur(10px);
+  transform: scale(1.1);   /* prevents blur edges */
+  z-index: -2;
+}
+
+/* Optional dark overlay for contrast */
+.app::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.541);
+  z-index: -1;
+}
