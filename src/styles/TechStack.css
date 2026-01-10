@@ -1,5 +1,5 @@
 .tech-stack {
-    margin: 0vw 23vw;
+    margin: 0vw 26vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,28 +8,12 @@
     
 }
 
-.tech-card {
-    border: 2px solid #f4f3ee;
-    border-radius: 2em;
-    padding: 0.5vw 1vw;
-    text-align: center;
-    background-color: #f4f3ee;
-    color: #000000;
-}
-
 .tech-stack h2 {
     text-align: center;
-    width: 10em;
+    width: 18em;
+    margin: 0vw 23vw;
     font-size: 1.5vw;
-}
-
-
-.tech-card p {
-    margin: 0;
-    border: 1px solid #f4f3ee;
-    border-radius: 1em;
-    font-size: 1vw;
-    
+    text-indent: 1vw;
 }
 
 .tech-container {
@@ -39,5 +23,46 @@
     align-items: center;
 
     justify-content: center;
-    gap: 2vw;
+    gap: 1.4vw;
 }
+
+
+.tech-card {
+    border: 2px solid #f4f3ee;
+    border-radius: 2em;
+    padding: 0.3vw 0.6vw;
+    text-align: center;
+    background-color: #f4f3ee;
+    color: #000000;
+}
+
+.tech-card p {
+    margin: 0;
+    border: 1px solid #f4f3ee;
+    border-radius: 1em;
+    font-size: 0.8vw;
+    
+}
+
+.tech-card:hover {
+     transform:rotate(-5deg)
+}
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .tech-stack {
+    margin: 0vw 16vw;
+    }
+    .tech-stack h2 {
+        font-size: 8vw;
+    }
+
+    .tech-card p{
+        font-size: 3.2vw;
+    }
+} 

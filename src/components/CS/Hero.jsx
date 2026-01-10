@@ -1,24 +1,42 @@
 import "../../styles/Hero.css";
+import photo from "../../assets/BGimg.webp";
+
+function FancyText({ text }) {
+  return (
+    <span className="fancy-text">
+      {text.split("").map((char, i) => (
+        <span key={i} className="char">
+          {char === " " ? "\u00A0" : char}
+        </span>
+      ))}
+    </span>
+  );
+}
+
 
 function Hero() {
   return (
     <div className="hero" id="home">
       <section className="hero-main">
 
-        <h1>AJMAIN HYDER</h1>
+        {/* <h1>AJMAIN HYDER</h1>
+        <p className="subtitle">Computer Science Student & Developer</p>
+        <p className="school">Toronto Metropolitan University — Co-op Program</p> */}
+
+        <h1><FancyText text="AJMAIN HYDER" /></h1>
         <p className="subtitle">Computer Science Student & Developer</p>
         <p className="school">Toronto Metropolitan University — Co-op Program</p>
-      
+
         <div className="cred-buttons"> 
           <a href="../../public/Resume.pdf" target="_blank" rel="noreferrer">
             
             <button className="cred-button">
-              <svg className="down-icon" viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M12 15V3"></path>
-                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                <path d="m7 10 5 5 5-5"></path>
-              </svg> 
               <span className="resumetxt">RESUME</span>
+              <svg className="down-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path>
+                <path d="M14 2v4a2 2 0 0 0 2 2h4"></path><path d="M12 18v-6"></path>
+                <path d="m9 15 3 3 3-3"></path>
+              </svg> 
             </button>
           </a>
           {/*}
@@ -46,11 +64,16 @@ function Hero() {
       </section>
 
       <div className="img-container">
-        <img src={"../../assets/hero-image.png"} alt="Hero" />
+        <img src={photo} alt="Hero" />
       </div>
-        
+      
+      <a href="#tech" className="scroll-indicator" aria-label="Scroll to projects">
+        <svg className="scroll-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="m6 9 6 6 6-6"></path>
+        </svg>
+      </a>
 
-    </div>
+      </div>
 
   );
 }

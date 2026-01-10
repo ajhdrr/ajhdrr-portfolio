@@ -2,12 +2,32 @@
     display: flex;
     flex-direction: column;
     padding: 2vw;
-    font-size: 1vw;
     /* background-color: #463f3a; */
+}
+.education h2 {
+    margin: 0vw 29vw;
+    font-size: 2vw;
+    text-indent: 1vw;
 }
 
 .education ul {
-    margin: 0vw 23vw;
+    margin: 0vw 28vw;
     padding: 1vw;
-    list-style: disc;
+    list-style: none;
+}
+
+@media (max-width: 768px) {
+    .education {
+        padding: 2vw;
+        text-align: center;
+        /* background-color: #463f3a; */
+    }
+    .education h2 {
+        font-size: 8vw;
+    }
+
+    .education ul {
+        margin: 0vw 10vw;
+        padding: 1vw;
+    }
 }

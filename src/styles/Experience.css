@@ -5,11 +5,12 @@
     font-size: 1vw;
     color: #f8f9fa;
     /* background-color: #8a817c; */
+   
 }
 
 .experience h2 {
-    margin: 0vw 23vw;
-    font-size: 2.5vw;
+    margin: 0vw 29vw;
+    font-size: 2vw;
     text-indent: 1vw;
 }
 
@@ -23,18 +24,22 @@
 }
 
 .exp-container {
-    margin: 0vw 23vw;
+    margin: 1vw 29vw;
     display: flex;
     flex-direction: column;
     border: 2px solid #f8f9fa;
     border-radius: 2em;
 
+    background: #c1d6eb10; 
+    backdrop-filter: blur(5px);
+    
+    box-shadow: inset 0 0 2vw #0000005b;
 }
 
 .exp-logo {
     width: 3vw;
     height: 3vw;
-    margin-top: 0.9vw;
+    margin-top: 1vw;
     border-radius: 50%;
     overflow: hidden;
     flex-shrink: 0;
@@ -64,7 +69,15 @@
   width: fit-content;
 }
 
-@media (max-width: 900px) {
+.exp-details ul{
+    margin-top: 0;
+    font-size: 0.7vw;
+}
+.exp-details li {
+    margin-top: 0.5vw;
+}
+
+@media (max-width: 768px) {
     .experience {
         padding: 4vw;
         align-items: center;
@@ -110,6 +123,10 @@
         list-style: none;
         margin-top: 2vw;
     }
+    .exp-details:hover{
+
+    }
+
     .exp-details ul {
         margin-top: 1vw;
         margin-left: 0;
