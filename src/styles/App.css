@@ -9,7 +9,7 @@
   content: "";
   position: fixed;
   inset: 0;
-/*   background-image: url("../assets/Stone.webp"); */
+  background-image: url("../assets/Stone.webp");
   background-size: 15vw;
   background-position: center;
   filter: blur(0.4vw);
