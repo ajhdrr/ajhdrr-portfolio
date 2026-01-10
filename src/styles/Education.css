@@ -11,9 +11,10 @@
 }
 
 .education ul {
-    margin: 0vw 28vw;
-    padding: 1vw;
+    margin: 0.6vw 28vw;
+    padding: 0 1vw;
     list-style: none;
+    font-size: 0.7vw;
 }
 
 @media (max-width: 768px) {
