@@ -5,7 +5,7 @@ function Experience() {
 const expList = [
     {
         id: 1,
-        title: "Client IT Intern",
+        title: "CLIENT IT CO-OP STUDENT",
         company: "Ontario Institute of Cancer Research (OICR), Toronto, ON",
         duration: "Sep 2024 – Dec 2024",
         points: [
@@ -18,7 +18,7 @@ const expList = [
     },
     {
         id: 2,
-        title: "IT Intern",
+        title: "IT INTERN",
         company: "DPS STS School, Dhaka, Bangladesh",
         duration: "Oct 2022 – Dec 2022",
         points: [
