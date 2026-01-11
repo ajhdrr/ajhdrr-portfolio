@@ -1,4 +1,6 @@
 import "../../styles/Experience.css";
+import OICRlogo from "../../assets/experience/OICR.webp";
+import DPSMUNV from "../../assets/experience/DPSMUNV.webp";
 
 
 function Experience() {
@@ -6,6 +8,7 @@ const expList = [
     {
         id: 1,
         title: "CLIENT IT CO-OP STUDENT",
+        logo: OICRlogo,
         company: "Ontario Institute of Cancer Research (OICR), Toronto, ON",
         duration: "Sep 2024 – Dec 2024",
         points: [
@@ -19,6 +22,7 @@ const expList = [
     {
         id: 2,
         title: "IT INTERN",
+        logo: DPSMUNV,
         company: "DPS STS School, Dhaka, Bangladesh",
         duration: "Oct 2022 – Dec 2022",
         points: [

@@ -46,10 +46,11 @@
     border-radius: 1.5em;
     overflow: hidden;
     flex-shrink: 0;
-    background: #070a0e;
+    background: #212529;
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .proj-img img {
@@ -196,7 +197,7 @@
     .proj-buttons{
         gap: 2vw;
     }
-    
+
     .proj-button {
         padding: 1vw 2.5vw;
         border-radius: 3em;

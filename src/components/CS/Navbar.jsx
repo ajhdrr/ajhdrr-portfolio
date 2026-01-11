@@ -9,6 +9,7 @@ function Navbar() {
         <a href="#home">Home</a>
         <a href="#projects">Projects</a>
         <a href="#experience">Experience</a>
+        <a href="#tech">TechStack</a>
         <a href="../../public/Resume.pdf" target="_blank" rel="noreferrer">
           <button className="resume-button">
             <svg className="resume-logo" viewBox="0 0 24 24" aria-hidden="true">
