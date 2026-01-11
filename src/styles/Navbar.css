@@ -41,26 +41,26 @@
 }
 
 .resume-button {
-    position: relative;
-    display: flex;
-    align-items: center;
-    padding-top: -0.1em;
-    justify-content: center;
-    gap: 0.5vw;
-    background-color: #e9ecef;
-    font-size: 1vw;
-    text-justify: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-top: -0.1em;
+  justify-content: center;
+  gap: 0.5vw;
+  background-color: #e9ecef;
+  font-size: 1vw;
+  text-justify: center;
 }
 
 .resume-logo {
-    width: 1vw;
-    height: 1vw;
-    fill: none;
-    stroke: currentColor;
-    stroke-width: 2.7;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    color: #495057;
+  width: 1vw;
+  height: 1vw;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2.7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  color: #495057;
 }
 
 .nav-links a:hover {
@@ -76,12 +76,12 @@
   }
 
   .ResumeLogo{
-      width: 20px;
-      height: 15px;
+      display: none;
   }
 
-  .ResumeButton {
+  .resume-button {
     font-size: 1vw;
+    display: none;
   }
 
   .logo {

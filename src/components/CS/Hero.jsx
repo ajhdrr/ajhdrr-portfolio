@@ -67,7 +67,7 @@ function Hero() {
         <img src={photo} alt="Hero" />
       </div>
       
-      <a href="#tech" className="scroll-indicator" aria-label="Scroll to projects">
+      <a href="#projects" className="scroll-indicator" aria-label="Scroll to projects">
         <svg className="scroll-icon" viewBox="0 0 24 24" aria-hidden="true">
           <path d="m6 9 6 6 6-6"></path>
         </svg>

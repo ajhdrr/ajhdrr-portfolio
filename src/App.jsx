@@ -13,14 +13,13 @@ import BGimg from "./assets/BGimg.webp"
 
 function App() {
   return (
-    <div className="app">  
+    <div className="app" id="CS">   
       <Navbar />
       <Hero />
-      <TechStack/>
       <Projects />
       <Experience />
       <Education />
-
+      <TechStack/>
       <Footer />
     
     </div>

@@ -1,7 +1,7 @@
 .site-footer {
     margin-top: 1vw;
-    padding: 0 27vw;
-    padding-bottom: 5vw;
+    padding: 1vw 27vw;
+    padding-bottom: 8vw;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -33,7 +33,7 @@
     display:none;
     position: fixed;
     bottom:10%;
-    left: 80%;
+    left: 75%;
 }
 
 .static-rbutton {
@@ -74,7 +74,7 @@
 @media (max-width: 768px) {
     .site-footer {
         padding: 4vw 18vw;
-        padding-bottom: 9vw;
+        padding-bottom: 20vw;
         flex-direction: column;
         
     }
