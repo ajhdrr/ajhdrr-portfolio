@@ -1,4 +1,4 @@
-import "/src/styles/Education.css";
+import "../../styles/Education.css";
 
 function Education() {
     return (

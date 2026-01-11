@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     padding: 2vw;
-    /* background-color: #463f3a; */
+
 }
 .education h2 {
     margin: 0vw 29vw;
@@ -21,7 +21,7 @@
     .education {
         padding: 2vw;
         text-align: center;
-        /* background-color: #463f3a; */
+
     }
     .education h2 {
         font-size: 8vw;

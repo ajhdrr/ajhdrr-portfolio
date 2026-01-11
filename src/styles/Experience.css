@@ -4,7 +4,6 @@
     padding: 2vw;
     font-size: 1vw;
     color: #f8f9fa;
-    /* background-color: #8a817c; */
    
 }
 
@@ -122,9 +121,6 @@
         text-align: center;
         list-style: none;
         margin-top: 2vw;
-    }
-    .exp-details:hover{
-
     }
 
     .exp-details ul {

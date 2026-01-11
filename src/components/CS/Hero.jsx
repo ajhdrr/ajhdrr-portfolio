@@ -1,6 +1,6 @@
-import "/src/styles/Hero.css";
+import "../../styles/Hero.css";
 
-import photo from "/src/assets/BGimg.webp";
+import photo from "../../assets/BGimg.webp";
 
 function FancyText({ text }) {
   return (

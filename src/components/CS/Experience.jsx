@@ -1,6 +1,6 @@
-import "/src/styles/Experience.css";
-import OICRlogo from "/src/assets/experience/OICR.webp";
-import DPSMUNV from "/src/assets/experience/DPSMUNV.webp";
+import "../../styles/Experience.css";
+import OICRlogo from "../../assets/experience/OICR.webp";
+import DPSMUNV from "../../assets/experience/DPSMUNV.webp";
 
 
 function Experience() {

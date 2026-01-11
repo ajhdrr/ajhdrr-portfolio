@@ -1,9 +1,9 @@
-import "/src/styles/TechStack.css";
+import "../../styles/TechStack.css";
 
 
 function TechStack() {
 const techList = [
-    // Languages
+
     "Java",
     "Python",
     "C",
@@ -14,8 +14,6 @@ const techList = [
     "HTML",
     "CSS",
     
-
-    // Frameworks & Technologies
     "React",
     "Node.js",
     "Express.js",
@@ -24,7 +22,6 @@ const techList = [
     "MySQL",
     "REST APIs",
 
-    // Developer Tools
     "Git",
     "GitHub",
     "VS Code",
@@ -33,7 +30,6 @@ const techList = [
     "Docker",
     "Unity",
 
-    // Libraries
     "Pandas",
     "NumPy",
     "Matplotlib",
