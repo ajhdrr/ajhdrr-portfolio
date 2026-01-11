@@ -1,14 +1,14 @@
 import "/src/styles/App.css"
 
-import Navbar from "./components/CS/Navbar.jsx";
-import Hero from "./components/CS/Hero.jsx";
-import Education from "./components/CS/Education.jsx";
-import Experience from "./components/CS/Experience.jsx"; 
-import Projects from "./components/CS/Projects.jsx";
-import TechStack from "./components/CS/TechStack.jsx";
-import Footer from "./components/CS/Footer.jsx";
+import Navbar from "/src/components/CS/Navbar.jsx";
+import Hero from "/src/components/CS/Hero.jsx";
+import Education from "/src/components/CS/Education.jsx";
+import Experience from "/src/components/CS/Experience.jsx"; 
+import Projects from "/src/components/CS/Projects.jsx";
+import TechStack from "/src/components/CS/TechStack.jsx";
+import Footer from "/src/components/CS/Footer.jsx";
 
-import BGimg from "./assets/BGimg.webp"
+import BGimg from "/src/assets/BGimg.webp"
 
 
 function App() {
