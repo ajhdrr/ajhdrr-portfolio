@@ -1,4 +1,4 @@
-import "../../styles/Footer.css";
+import "/src/styles/Footer.css";
 
 function Footer() {
     return (
@@ -21,7 +21,7 @@ function Footer() {
                 <path d="M9 18c-4.51 2-5-2-7-2"></path>
                 </svg>
             </a>
-            <a href="../../public/Resume.pdf" target="_blank" rel="noreferrer" className="resume">
+            <a href="/Resume.pdf" target="_blank" rel="noreferrer" className="resume">
                 <button className="resume-button">
                     <svg className="resume-logo" viewBox="0 0 24 24" aria-hidden="true">
                     <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path>
@@ -32,7 +32,7 @@ function Footer() {
             </a>
         </div>
 
-        <a href="../../public/Resume.pdf" target="_blank" rel="noreferrer" className="static-resume">
+        <a href="/Resume.pdf" target="_blank" rel="noreferrer" className="static-resume">
           <button className="static-rbutton">
             <svg className="static-logo" viewBox="0 0 24 24" aria-hidden="true">
               <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path>

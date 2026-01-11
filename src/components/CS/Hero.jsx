@@ -1,5 +1,6 @@
-import "../../styles/Hero.css";
-import photo from "../../assets/BGimg.webp";
+import "/src/styles/Hero.css";
+
+import photo from "/src/assets/BGimg.webp";
 
 function FancyText({ text }) {
   return (
@@ -28,7 +29,7 @@ function Hero() {
         <p className="school">Toronto Metropolitan University — Co-op Program</p>
 
         <div className="cred-buttons"> 
-          <a href="../../public/Resume.pdf" target="_blank" rel="noreferrer">
+          <a href="/Resume.pdf" target="_blank" rel="noreferrer">
             
             <button className="cred-button">
               <span className="resumetxt">RESUME</span>

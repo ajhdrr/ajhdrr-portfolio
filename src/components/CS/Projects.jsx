@@ -1,9 +1,9 @@
-import "../../styles/Projects.css";
-import Blob from "../../assets/project/Blob.webp"
-import DBMSImg from "../../assets/project/DBMS-Img.webp";
-import WebPortfolio from "../../assets/project/WebPortfolio.webp";
+import "/src/styles/Projects.css";
+import Blob from "/src/assets/project/Blob.webp"
+import DBMSImg from "/src/assets/project/DBMS-Img.webp";
+import WebPortfolio from "/src/assets/project/WebPortfolio.webp";
 
-import DBMSR from "../../assets/project/DBMS-Report.pdf";
+import DBMSR from "/src/assets/project/DBMS-Report.pdf";
 
 
 function Projects() {
