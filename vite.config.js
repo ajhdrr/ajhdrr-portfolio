@@ -10,5 +10,5 @@ export default defineConfig({
       },
     }),
   ],
-  base: "/ajhdrr-portfolio"
+  base: "/ajhdrr-portfolio/"
 })
