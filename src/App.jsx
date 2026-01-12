@@ -15,7 +15,7 @@ import BGimg from "./assets/BGimg.webp"
 function App() {
   return (
     <div className="app" id="CS">  
-       <div style={{ width: '1px', height: '1px', position: 'static' }}>
+       <div className="snow-layer">
         <PixelSnow 
           color="#ffffff"
           flakeSize={0.01}

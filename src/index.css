@@ -14,6 +14,8 @@
   -moz-osx-font-smoothing: grayscale;
   
   scroll-behavior: smooth;
+  overscroll-behavior: none;
+  -webkit-overflow-scrolling: touch;
 
 }
 
