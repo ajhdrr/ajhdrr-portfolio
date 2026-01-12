@@ -26,7 +26,7 @@
     margin: 1vw 29vw;
     display: flex;
     flex-direction: column;
-    border: 2px solid #f8f9fa;
+    border: 0.12vw solid #f8f9fa;
     border-radius: 2em;
 
     background: #c1d6eb10; 
@@ -76,7 +76,7 @@
     margin-top: 0.5vw;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) and (orientation: portrait) {
     .experience {
         padding: 4vw;
         align-items: center;

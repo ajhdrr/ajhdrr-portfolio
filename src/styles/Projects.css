@@ -125,7 +125,7 @@
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 768px) and (orientation: portrait) {
     .projects {
         padding: 4vw;
         align-items: center;
