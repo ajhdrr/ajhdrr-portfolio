@@ -13,9 +13,9 @@
   padding: 0 4vw;
   box-sizing: border-box;
 
-  border-bottom: 1px solid #ffffffb7;
+  /* border-bottom: 1px solid #ffffffb7; */
 
-  background: #21252952;
+  background: #06070852;
   backdrop-filter: blur(12px);
 
 }
@@ -72,10 +72,13 @@
 @media (max-width: 768px) {
 
   .navbar {
-    height: 2rem;
+    /* height: 2rem; */
+
+    display: none;
+
   }
 
-  .ResumeLogo{
+  /* .ResumeLogo{
       display: none;
   }
 
@@ -90,5 +93,5 @@
 
   .nav-links a {
     font-size: 0.7rem;
-  }
+  } */
 }
