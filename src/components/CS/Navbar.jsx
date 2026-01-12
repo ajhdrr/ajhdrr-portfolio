@@ -3,12 +3,13 @@ import "../../styles/NavBar.css";
 function Navbar() {
   return (
     <nav className="navbar">
-      <div className="logo"> <p>ajhdrr </p></div>
+      <div className="logo"> <p>AJHDRR </p></div>
 
       <div className="nav-links">
         <a href="#home">Home</a>
         <a href="#projects">Projects</a>
         <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
         <a href="#tech">TechStack</a>
 
         <a href="/Resume.pdf" target="_blank" rel="noreferrer">

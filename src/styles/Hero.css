@@ -4,7 +4,7 @@
     height: 100vh;
     display: flex;
     flex-direction: row;
-    align-items: center;    
+    align-items: center;   
 }
 
 .hero-main {
@@ -108,7 +108,7 @@
 
 .cred-button:hover {
     background-color: #adb5bd;
-    transform: rotate(5deg) scale(1.1);
+    transform: rotate(2deg)  scale(1.1);
 }
 
 
