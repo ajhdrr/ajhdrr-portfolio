@@ -7,11 +7,7 @@
    
 }
 
-.experience h2 {
-    margin: 0vw 29vw;
-    font-size: 2vw;
-    text-indent: 1vw;
-}
+
 
 .exp-cards {
     padding: 1vw;
@@ -26,13 +22,14 @@
     margin: 1vw 29vw;
     display: flex;
     flex-direction: column;
-    border: 0.12vw solid #f8f9fa;
+
+    border: 0.02vw solid #b1beca10;
     border-radius: 2em;
 
-    background: #c1d6eb10; 
-    backdrop-filter: blur(5px);
-    
-    box-shadow: inset 0 0 2vw #0000005b;
+    background: #14161810; 
+    backdrop-filter: blur(3px);
+    z-index: 1;
+
 }
 
 .exp-logo {

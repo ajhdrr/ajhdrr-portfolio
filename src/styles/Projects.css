@@ -6,12 +6,7 @@
     color: #f8f9fa;
     
 }
-.projects h2 {
-    margin: 0vw 29vw;
-    font-size: 2vw;
-    text-indent: 1vw;
-    
-}
+
 
 .proj-container {
     margin: 0vw 29vw;
@@ -25,16 +20,17 @@
     width: 15vw;
     margin: 1vw;
     padding: 1vw;
-    border: 0.12vw solid #f8f9fa;
-    border-radius: 2em;
+   
     padding-top: 1vw;
     display: flex;
     flex-direction: column;
 
-    background: #c1d6eb10; 
-    backdrop-filter: blur(5px);
-    
-    box-shadow: inset 0 0 2vw #0000005b;
+    border: 0.02vw solid #b1beca10;
+    border-radius: 2em;
+
+    background: #14161810; 
+    backdrop-filter: blur(3px);
+    z-index: 1;
     
 }
 

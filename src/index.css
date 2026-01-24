@@ -31,10 +31,13 @@ ul {
 }
 
 h2 {
+
+    text-align: center;
+    margin: 2vw 23vw;
     font-size: 2.5vw;
-    margin: 1vw 23vw;
-    text-align: left;
+    text-indent: 1vw;
 }
+
 
 button {
   border-radius: 100em;
@@ -46,6 +49,7 @@ button {
   background-color: #ffffff;
   cursor: pointer;
   transition: border-color 0.25s;
+  color: #495057;
 }
 
 .projects, .experience, .education, .tech-stack {

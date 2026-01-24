@@ -1,7 +1,7 @@
 .site-footer {
     margin-top: 1vw;
     padding: 1vw 27vw;
-    padding-bottom: 8vw;
+    padding-bottom: 4vw;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -51,7 +51,8 @@
     backdrop-filter: blur(10vw);
 
 }
-    
+
+
 
 .static-logo {
     display:none;
@@ -73,14 +74,15 @@
 
 @media (max-width: 500px) or (orientation: portrait) {
     .site-footer {
-        padding: 4vw 18vw;
-        padding-bottom: 20vw;
+        padding: 5vw 13vw;
+        padding-bottom: vw;
         flex-direction: column;
-        
+        align-items: center;
     }
 
     .site-footer p {
-        font-size: 3vw;
+        font-size: 2vw;
+        padding-bottom: 1vw;
     }
     .footer-icon a{
         width:fit-content;
@@ -90,7 +92,7 @@
         display: none;
     }
     .footer-icon {
-        gap: 10vw;
+        gap: 5vw;
     }
     .static-resume, .static-logo, .static-rbutton {
         display: flex;
