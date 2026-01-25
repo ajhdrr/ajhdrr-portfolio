@@ -1,4 +1,4 @@
-import "../../styles/TechStack.css";
+import "../../styles/techstack.css";
 
 
 function TechStack() {

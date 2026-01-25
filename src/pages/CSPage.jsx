@@ -1,4 +1,4 @@
-import "../styles/CSPage.css"
+import "../styles/cspage.css"
 import PixelSnow from '../PixelSnow';
 
 import Navbar from "../components/CS/Navbar.jsx";

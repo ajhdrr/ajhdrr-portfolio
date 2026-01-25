@@ -1,4 +1,4 @@
-import "../../styles/Projects.css";
+import "../../styles/projects.css";
 import Blob from "../../assets/project/Blob.webp"
 import DBMSImg from "../../assets/project/DBMS-Img.webp";
 import WebPortfolio from "../../assets/project/WebPortfolio.webp";

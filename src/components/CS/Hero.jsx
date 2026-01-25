@@ -1,4 +1,4 @@
-import "../../styles/Hero.css";
+import "../../styles/hero.css";
 
 import photo from "../../assets/BGimg.webp";
 

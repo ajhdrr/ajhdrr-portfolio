@@ -1,4 +1,4 @@
-import "../../styles/Experience.css";
+import "../../styles/experience.css";
 import OICRlogo from "../../assets/experience/OICR.webp";
 import DPSMUNV from "../../assets/experience/DPSMUNV.webp";
 
