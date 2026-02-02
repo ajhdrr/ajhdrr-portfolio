@@ -1,4 +1,3 @@
-import "../styles/cspage.css"
 import PixelSnow from '../PixelSnow';
 import { Link } from "react-router-dom";
 
