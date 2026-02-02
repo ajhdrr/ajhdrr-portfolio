@@ -1,9 +1,12 @@
 import "../../styles/navbar.css";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
     <nav className="navbar">
-      <div className="logo"> <p>AJHDRR </p></div>
+      <Link to="/" style={{textDecoration: "none", color:"inherit"}}>
+        <div className="logo"> <p>AJHDRR </p></div>
+      </Link>
 
       <div className="nav-links">
         <a href="#home">Home</a>

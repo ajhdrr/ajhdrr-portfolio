@@ -17,13 +17,14 @@
 
   background: #06070852;
   backdrop-filter: blur(12px);
-
+  text-decoration: none;
 }
 
 .logo {
   font-size: 1vw;
   font-weight: 300;
   font-family: Impact;
+
 }
 
 .nav-links {
@@ -36,7 +37,7 @@
 
 }
 
-.nav-links a{
+.nav-links a {
   color: white;
   text-decoration: none;
   font-size: 0.6vw;
