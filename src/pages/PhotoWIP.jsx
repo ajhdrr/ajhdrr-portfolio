@@ -1,7 +1,8 @@
+import "../styles/cspage.css"
 import PixelSnow from '../PixelSnow';
 import { Link } from "react-router-dom";
 
-function Home  () {
+function NotFoundPage  () {
     return (
         <div className="cspage">  
             <div className="snow-layer">
@@ -16,13 +17,13 @@ function Home  () {
                 brightness={4}
                 />
             </div>
-            <div style={{height:"100vh", display:"flex", flexDirection:"column", justifyContent:"center", alignItems:"center"}}>
-                <h1> Home Page</h1>
-                <Link to={"/CS"}>
-                    <button style={{color:""}}> CS</button>
+            <div style={{height:"100vh", display:"flex", flexDirection:"column", justifyContent:"center", alignItems:"center", gap:"20px"}}>
+                <h1> Creative Page still in WIP</h1>
+                <Link to={"/"}>
+                    <button style={{color:""}}> Go Back Home</button>
                 </Link>
-                <Link to={"/Photography"}>
-                    <button style={{color:""}}> Photography</button>
+                <Link to={"/CS"}>
+                    <button style={{color:""}}> CS Portfolio </button>
                 </Link>
             </div>
             
@@ -31,4 +32,4 @@ function Home  () {
 
 } 
 
-export default Home;
+export default NotFoundPage;

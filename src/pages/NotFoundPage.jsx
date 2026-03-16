@@ -17,7 +17,7 @@ function NotFoundPage  () {
                 brightness={4}
                 />
             </div>
-            <div style={{height:"100vh", display:"flex", flexDirection:"column", justifyContent:"center", alignItems:"center"}}>
+            <div style={{height:"100vh", display:"flex", flexDirection:"column", justifyContent:"center", alignItems:"center", padding:"0 20px", textAlign:"center"}}>
                 <h1> Page Not Found</h1>
                 <Link to={"/"}>
                     <button style={{color:""}}> Go Back Home</button>
