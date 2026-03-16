@@ -9,13 +9,20 @@ export default function HomePage() {
       
 
       <div className="home__center">
+
         <h1 className="home__name">
           Ajmain
           <em>Hyder</em>
         </h1>
-         <div className="home__divider" />
+
+        <div className="home__divider" />
+        
         <p className="home__tagline">Designer · Developer · Photographer</p>
-         <div className="home__dot" />
+
+        <div className="home__dot" />
+
+        <p className="home__tagline">&lt;&lt; Hover over the panels to see more &gt;&gt;</p>
+
       </div>
 
       <Panel side="photo" />
